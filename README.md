@@ -10,12 +10,4 @@ The code implements tail inference for a heavy-tailed bivariate survival functio
 - `simulations.R`: Monte Carlo study and tail-set illustrations.
 - `loss_alae.R`: application to the `lossalaefull` data from `CASdatasets`.
 
-## Run
-
-```sh
-Rscript simulations.R
-Rscript loss_alae.R
-Rscript uk_data.R
-```
-
 The full simulation uses 1,000 replications in each of 24 scenarios and may take substantial time. Figures and LaTeX tables are written to `figures/` and `tables/`.
